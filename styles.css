@@ -37,9 +37,9 @@
 
 body {
     height: 100vh;
-    background: url(/images/image1.jpg), var(--background-color);
+    background: url(/images/background.jpg), var(--background-color);
     background-repeat: no-repeat;
-    background-position: -30vh 10%;
+    
     
 
     
@@ -111,6 +111,10 @@ fieldset {
     
 }
 
+input {
+    color: black
+}
+
 .info {
     
     display: flex;
@@ -153,4 +157,5 @@ section {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
