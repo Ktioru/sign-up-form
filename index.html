@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -12,9 +12,46 @@
 <body>
     <div class="logo"><img src="images/odin-lined.png" alt="Form Logo"><h1>FORM</h1></div>
     <main>
-        <h1>this is not a real form! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nullam non nisi est sit amet facilisis.</h1>
+        <h1>This is not a real form! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nullam non nisi est sit amet facilisis.</h1>
+        <form action="#" method="post">
+            <legend>Let's do this!</legend>
+            <fieldset class="info">
+                <div class="label">
+                    <label for="first">First Name</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="label">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                <div class="label">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="label">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tell" name="phone-number" id="phone-number">
+                </div>
+                <div class="label">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="label">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </div>
+            </fieldset>
+            <fieldset class="send-info">
+                <input type="button" value="Sign up">
+                <h3>Already have an account? <a href="#">Sign up</a></h3>
+            </fieldset>
+            
+        </form>
         
     </main>
+    
+</div>
+   
     
 </body>
 </html>
