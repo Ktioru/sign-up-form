@@ -37,7 +37,7 @@
 
 body {
     height: 100vh;
-    background: url("images/background.jpg"), var(--background-color);
+    background: url(./images/background.jpg), var(--background-color);
     background-repeat: no-repeat;
     
     
